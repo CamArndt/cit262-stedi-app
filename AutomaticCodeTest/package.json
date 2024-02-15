@@ -4,7 +4,11 @@
   "description": "",
   "main": "helloworld.test.js",
   "dependencies": {
-    "mocha": "^10.3.0"
+    "@expo/ngrok": "^4.1.0",
+    "expo": "^49.0.0",
+    "metro": "0.80.5",
+    "mocha": "^10.3.0",
+    "react-native": "^0.73.4"
   },
   "scripts": {
     "test": "mocha"
