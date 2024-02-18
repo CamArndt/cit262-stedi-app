@@ -1,8 +1,8 @@
 import sayHello from "../utils/helloworld.mjs";
 import assert from 'assert';
 
-it("Test Hello World", ()=>{
+it("Should say Hello Cameron", ()=>{
     const hello = sayHello();
 
-    assert.equal(hello, "hello Cameron");
+    assert.equal(hello, "Hello Cameron");
 });
